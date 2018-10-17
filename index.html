@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="icon" type="images" href="assets/images/logo.png">
 	<link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
 	<title>Wireframe Activity</title>
 </head>
@@ -16,12 +17,12 @@
 	 	<nav class="nav">
 	 		<section class="logo"></section>
 	 			<ul class="una">
-	 				<li><a href="#banner"> HOME </a></li>
-	 				<li><a href="#about"> ABOUT </a></li>
-	 				<li><a href="#services"> SERVICES </a></li>
-	 				<li><a href="#projects"> PROJECT </a></li>
-	 				<li><a href="#gallery"> GALLERY </a></li>
-	 				<li><a href="#footer"> CONTACT </a></li>
+	 				<li><a href="#banner"><i class="fas fa-home"></i> <span>HOME</span> </a></li>
+	 				<li><a href="#about"> <i class="fas fa-question-circle"></i> <span>ABOUT</span> </a></li>
+	 				<li><a href="#services"><i class="fas fa-wrench"></i> <span>SERVICES</span> </a></li>
+	 				<li><a href="#projects"><i class="fas fa-project-diagram"></i> <span>PROJECT</span> </a></li>
+	 				<li><a href="#gallery"> <i class="fas fa-images"></i> <span>GALLERY</span> </a></li>
+	 				<li><a href="#footer"> <i class="fas fa-mobile-alt"></i> <span>CONTACT</span> </a></li>
 	 			</ul>
 	 		
 	 	</nav> <!-- end of nav -->
@@ -31,7 +32,7 @@
 	 		<section class="banner" id="banner">
 
 	 			<figure class="box">	
-		 			<h1>Vintage</h1>
+		 			<h1 class="vin">Vintage</h1>
 		 			<p>This is a simple website layout utilizing css position and floats</p>
 	 			</figure> <!-- end of box -->
 
@@ -46,50 +47,111 @@
 
 	 		</section> <!-- end of about -->
 
-	 		<section class="services" id="services">
+	 		<section class="services clear" id="services">
 	 			<fieldset class="f1">
 	 				
 		 			<legend><h2>*Services*</h2></legend>
 
-			 			<ul class="pangalawa">
-			 				
-			 				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea hic deserunt quaerat, unde tenetur facere, temporibus velit ducimus iure porro. Possimus vel quia libero a minus inventore voluptatem nulla!</li>
+		 				<figure class="column">
+		 					<img src="assets/images/logo.jpg" alt="service-1">
+		 					<h3 class="no-top">Great Service One</h3>
+		 					<p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, expedita cum quasi. Officia facilis architecto repellendus tenetur libero maiores omnis vero doloremque nobis, asperiores dolorum aliquam porro fugit nisi quae.</p>
+		 				</figure> <!-- end of column -->
 
-			 				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea hic deserunt quaerat, unde tenetur facere, temporibus velit ducimus iure porro. Possimus vel quia libero a minus inventore voluptatem nulla!</li>
+		 				<figure class="column">
+		 					<img src="assets/images/logo.jpg" alt="service-2">
+		 					<h3 class="no-top">Great Service Two</h3>
+		 					<p class="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, expedita cum quasi. Officia facilis architecto repellendus tenetur libero maiores omnis vero doloremque nobis, asperiores dolorum aliquam porro fugit nisi quae.</p>
+		 				</figure> <!-- end of column -->
+		 				<figure class="column">
+		 					<img src="assets/images/logo.jpg" alt="service-3">
+		 					<h3 class="no-top">Great Service Three</h3>
+		 					<p class="para-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, expedita cum quasi. Officia facilis architecto repellendus tenetur libero maiores omnis vero doloremque nobis, asperiores dolorum aliquam porro fugit nisi quae.</p>
+		 				</figure> <!-- end of column -->
 
-			 				<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ea hic deserunt quaerat, unde tenetur facere, temporibus velit ducimus iure porro. Possimus vel quia libero a minus inventore voluptatem nulla!</li>
-			 			</ul>
 	 			</fieldset>
 
 	 				
 	 		</section> <!-- end of services -->
 
 	 		<section class="projects" id="projects">
-	 			<h2>Projects</h2>
-	 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corrupti deserunt deleniti provident quia sapiente ad placeat ratione illum culpa expedita ipsum, architecto error optio repellat fuga. Atque, enim, necessitatibus.</p>
+
+	 			<fieldset class="proj">
+	 				
+	 			<legend><h2>*Projects*</h2></legend>
+
+	 			<p class="proj1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet corrupti deserunt deleniti provident quia sapiente ad placeat ratione illum culpa expedita ipsum, architecto error optio repellat fuga. Atque, enim, necessitatibus.</p>
+
+	 			</fieldset>
+
 	 		</section> <!-- end of projects -->
 
-	 		<section class="gallery" id="gallery">
+	 		<section class="gallery clear" id="gallery">
 
 	 			<fieldset class="f3">
 	 				
 		 			<legend><h2>*Gallery*</h2></legend>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v1.jfif" alt="gallery-1">
+		 					<h3 class="i-1">Item 1</h3>
+		 					<p class="txt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v6.jpg" alt="gallery-2">
+		 					<h3 class="i-2">Item 2</h3>
+		 					<p class="txt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v2.jfif" alt="gallery-3">
+		 					<h3 class="i-3">Item 3</h3>
+		 					<p class="txt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v3.jpg" alt="gallery-4">
+		 					<h3 class="i-4">Item 4</h3>
+		 					<p class="txt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v4.jpg" alt="gallery-4">
+		 					<h3 class="i-5">Item 5</h3>
+		 					<p class="txt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
+
+		 				<figure class="column">
+		 					<img src="assets/images/v5.jpg" alt="gallery-4">
+		 					<h3 class="i-6">Item 6</h3>
+		 					<p class="txt-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod sit aliquid quaerat asperiores ut, aperiam ipsam magnam earum rem tenetur itaque a cumque, veniam quo vitae hic labore, minus quis.</p>
+
+		 				</figure>
 		 			
-		 				<div class="bbox bbox1">
-		 					<div class="gbox"></div>
-		 					<div class="gbox"></div>
-		 					<div class="gbox"></div>
-		 					<div class="gbox"></div>
-		 					<div class="gbox"></div>
-		 					<div class="gbox"></div>
-		 				</div>
 
 	 			</fieldset>
 
 	 		</section> <!-- end of gallery -->
 
 	 		<footer class="footer" id="footer">
-	 			<small> Danmark Quiñones | Wireframe Activity &copy; 2018</small>
+
+	 			<small> Danmark P. Quiñones | Wireframe Activity &copy; 2018</small>
+
+	 			<div class="contact">
+	 				
+		 			<a href="https://www.facebook.com/itzmedanmark" target="_blank"><img src="assets/images/ic1.png" alt="social-facebook"></a>
+		 			<a href="https://gitlab.com/danmarkquinones" target="_blank"><img src="assets/images/ic2.png" alt="social-gitlab"></a>
+		 			<a href="https://github.com/danmarkquinones" target="_blank"><img src="assets/images/ic3.png" alt="social-github"></a>
+		 			<a href="#" target="_blank"><img src="assets/images/ic4.png" alt="social-gmailfigure"></a>
+
+	 			</div> <!-- end of contact -->
+
 	 		</footer> <!-- end of footer -->
 
 	 	</main><!-- end of main -->
