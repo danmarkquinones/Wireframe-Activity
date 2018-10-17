@@ -5,6 +5,12 @@
 	font-family: 'Charmonman', cursive; 
 	color: lightgrey;
 }
+
+
+body {
+	background-color: green;
+	height: 100%;
+}
 .nav,
 .banner,
 .about,
@@ -70,7 +76,6 @@ ul > li: hover > a{
 .main{
 	background-color: lightgrey;
 	margin-left: 200px;
-	margin-bottom: 20px;
 	
 }
 
@@ -250,7 +255,7 @@ h3[class*="i"]{
 
 .footer{
 	background-color: #1F1509;
-	min-height: 50px;
+	min-height: 50px; 
 /*	overflow: hidden;*/
 /*	text-align: center;*/
 	/*background-color: red;*/
