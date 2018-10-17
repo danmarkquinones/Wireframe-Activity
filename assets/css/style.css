@@ -4,6 +4,11 @@
 	box-sizing: border-box; 
 	font-family: 'Charmonman', cursive; 
 	color: lightgrey;
+
+}
+
+html{
+	scroll-behavior: smooth;
 }
 
 
